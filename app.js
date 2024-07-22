@@ -16,10 +16,10 @@ db.once('open', () => {
 const prompt = require('prompt-sync')();
 const Customer = require('./models/Customer');
 
-// Display Welcome Message
+
 console.log('Welcome to the CRM');
 
-// Menu Function
+// menu Function
 const menu = () => {
   console.log(`
   What would you like to do?
@@ -34,7 +34,7 @@ const menu = () => {
   return choice;
 };
 
-// Main Function to Run the App
+//running the app
 const main = async () => {
   let running = true;
 
